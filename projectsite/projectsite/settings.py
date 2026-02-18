@@ -5,3 +5,12 @@ STATIC_URL = '/static/'
 
 # Make sure Django knows where urls.py is
 ROOT_URLCONF = 'projectsite.urls'
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+]
